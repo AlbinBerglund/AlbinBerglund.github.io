@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om oss</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css">
+  </head>
+
+  <body>
+    <section class="header">
+      <img class="logo" src="./img/logo.png" alt="">
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <a href="./index.html">Hem</a>
+        <a href="./photos.html">Bilder</a>
+        <a class="active" href="./about.html">Om oss</a> 
+        <a href="./webbrapport.html">Webbrapport</a> 
+      </ul>
+    </section>
+
+    <div class="about-section">
+      <h1>Om oss</h1>
+      <p>Vi är fotografer som fångar ögonblickets skönhet och skapar minnen.</p>
+      <p>Vi använder vår expertis och kreativitet för att göra ögonblick oförglömliga.</p>
+    </div>
+    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="./img/people/female.jpg" alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>Hilda Bianca</h2>
+            <p class="title">Grundare</p>
+            <p>Hilda.Bianca@gmail.com</p>
+            <p><a href="#popup-box"  class="button">Kontakta</a>  </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="./img/people/male.jpg" alt="Ryan Nennius" style="width:100%">
+          <div class="container">
+            <h2>Ryan Nennius</h2>
+            <p class="title">fotograf</p>
+            <p>ryan.nennius@gmail.com</p>
+            <p><a href="#popup-box"  class="button">Kontakta</a>  </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <img src="./img/people/female.webp" alt="John" style="width:100%">
+          <div class="container">
+            <h2>Anette Avelina</h2>
+            <p class="title">Designer</p>
+            <p>anette.avelina@gmail.com</p>
+            <p><a href="#popup-box"  class="button">Kontakta</a>  </p>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+  <div id="popup-box" class="modal">
+      <div class="content">
+          <h1 style="color: green;">
+              Contact Information
+          </h1>
+          <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <button type="submit">Submit</button>
+          </form>
+          <a href="#" class="box-close">
+              ×
+          </a>
+      </div>
+  </div>
+</body>
+
+    
+    <footer class="footer">
+      <div class="cringecopyrights">
+        <p>&copy; 2023. All rights reserved.</p> 
+        <div class="left">
+          <span>Made with <span class="heart">♥</span> from Rat123</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
